@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: Replicaset 
+kind: ReplicaSet 
 metadata: 
   name: nginx
 spec:
@@ -16,4 +16,4 @@ spec:
       - name: nginx
         image: nginx:1.14
         ports:
-        - comtainerPort: 80
+        - containerPort: 80
